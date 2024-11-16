@@ -1,0 +1,77 @@
+#left2 {
+    width: 50% !important;
+}
+
+button {
+    width: 110px;
+    height: 40px;
+    border-radius: 7px;
+    border: none;
+    background-color: #1eaaf1;
+    color: white;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: orange;
+    color: white;
+}
+
+/* <! @media------------> */
+
+@media screen and (max-width: 600px) {
+    #left2 {
+        width: 100% !important;
+        margin: 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #left2 {
+        width: 100% !important;
+        margin: 0;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    #left2 {
+        width: 100% !important;
+        margin: 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 468px) {
+    #left2 {
+        width: 100% !important;
+        margin: 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 468px) {
+    #left2 {
+        width: 100% !important;
+        margin: 0;
+        text-align: center;
+    }
+}
+
+/* @media------ enq page------> */
+
+@media screen and (min-width: 480px) {
+    .change {
+        width: 100% !important;
+        margin: 0;
+    }
+}
+
+#message {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+}
