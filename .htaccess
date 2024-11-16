@@ -7,7 +7,7 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
 <IfModule mod_headers.c>
-    Header set Access-Control-Allow-Origin "https://example.com"
+    Header set Access-Control-Allow-Origin "https://akhileshkr1098.github.io"
     Header set Access-Control-Allow-Methods "POST, GET, OPTIONS"
     Header set Access-Control-Allow-Headers "Content-Type, Authorization"
 </IfModule>
