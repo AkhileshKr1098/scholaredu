@@ -1,12 +1,17 @@
+# Enable Rewrite Engine
 RewriteEngine On
+
+# Rule for serving .html files without the extension
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html [NC,L]
-RewriteEngine On
+
+# Rule for serving .php files without the extension
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
 
+# Handle CORS (Cross-Origin Resource Sharing)
 <IfModule mod_headers.c>
     Header set Access-Control-Allow-Origin "*"
     Header set Access-Control-Allow-Methods "POST, GET, OPTIONS"
